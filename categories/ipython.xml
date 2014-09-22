@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (IPython)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 21 Sep 2014 22:13:01 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (IPython)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 21 Sep 2014 22:15:05 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -8,6 +8,7 @@
 &lt;p&gt;&lt;strong&gt;Now you want it in a&lt;/strong&gt; &lt;span style="color:#add8e6; font-weight:bold"&gt;PDF as a report to show your boss ...&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;NOTEBOOK --&amp;gt; PDF in under 5 mins&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Example product: &lt;a href="http://jyt109/posts/example.pdf"&gt;example.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;P.S. Instructions has only been tested on Mac Pro (Mavericks). User be cautious&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://jyt109/posts/convert-ipython-notebook-to-pdf.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>IPython</category><guid>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</guid><pubDate>Mon, 22 Sep 2014 03:07:57 GMT</pubDate></item><item><title>Python/IPython as a PostGres Client</title><link>http://jyt109/posts/postgres-database.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
 &lt;div class="prompt input_prompt"&gt;
