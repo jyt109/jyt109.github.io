@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/database.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/ipython.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/probability.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/programming.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/python.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/galleries/rss.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/rss.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/sitemap.xml</loc>
+  <lastmod>2014-09-12</lastmod>
+ </sitemap>
+</sitemapindex>
