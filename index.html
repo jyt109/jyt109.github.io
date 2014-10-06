@@ -63,6 +63,69 @@ MathJax.Hub.Config({
     <section class="page-content">
         <div class="content" rel="main">
         <div class="post">
+            <h1 class="title"><a href="posts/the-coin-change-problem.html">The Coin Change Problem</a></h1>
+            <br>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2014-10-05T23:36:30-07:00">2014-10-05 23:36</time>
+                </div>
+                <div class="stats">
+                                <a href="posts/the-coin-change-problem.html#disqus_thread" data-disqus-identifier="cache/posts/the-coin-change-problem.html">Comments</a>
+
+
+                </div>
+                        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
+        </ul>
+        </div>
+
+            </div>
+            <div class="body">
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <style type="text/css">
+        div.output_wrapper {
+            margin-top: 0px;
+        }
+
+        .output_hidden {
+            display: none;
+            margin-top: 5px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $(".input").click(function(){
+                $(this).next('.output_hidden').slideToggle();
+            });
+            $('.entry-title').css('text-align','center');
+            if ($(location).attr('pathname') === "/stories/about.html") {
+                $('.entry-title').remove();
+            };
+
+        })
+    </script>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Given some US coins and an amount of value in cents, return the minimum number of coins necessary for the exact value</strong></p>
+<ul>
+<li>Loop through the coins <strong>sorted by descending order</strong> (25, 10...)</li>
+<li>Take the <strong>rounded division</strong> (Add that to the number of cumulative coins)</li>
+<li>Take the <strong>modulus and pass onto the next coin</strong> in line</li>
+</ul>
+<p class="more"><a href="posts/the-coin-change-problem.html">Read more…</a></p>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="posts/profit-curves.html">Profit Curves</a></h1>
             <br>
             <div class="meta">
@@ -77,8 +140,7 @@ MathJax.Hub.Config({
                         <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="categories/ml.html" rel="tag">ML</a></li>
-           <li><a class="tag p-category" href="categories/profit-curve.html" rel="tag">Profit Curve</a></li>
+           <li><a class="tag p-category" href="categories/machine-learning.html" rel="tag">Machine Learning</a></li>
         </ul>
         </div>
 
@@ -146,8 +208,7 @@ MathJax.Hub.Config({
                         <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="categories/ml.html" rel="tag">ML</a></li>
-           <li><a class="tag p-category" href="categories/svm.html" rel="tag">SVM</a></li>
+           <li><a class="tag p-category" href="categories/machine-learning.html" rel="tag">Machine Learning</a></li>
         </ul>
         </div>
 
@@ -207,7 +268,7 @@ MathJax.Hub.Config({
             <br>
             <div class="meta">
                 <div class="authordate">
-                    <time class="timeago" datetime="2014-10-03T23:43:17-07:00">2014-10-03 23:43</time>
+                    <time class="timeago" datetime="2014-10-02T23:43:17-07:00">2014-10-02 23:43</time>
                 </div>
                 <div class="stats">
                                 <a href="posts/numpy-basics.html#disqus_thread" data-disqus-identifier="cache/posts/basic-numpy.html">Comments</a>
@@ -412,7 +473,6 @@ MathJax.Hub.Config({
                         <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="categories/programming.html" rel="tag">Programming</a></li>
            <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
         </ul>
         </div>
@@ -425,7 +485,7 @@ MathJax.Hub.Config({
         div.output_wrapper {
             margin-top: 0px;
         }
-        
+
         .output_hidden {
             display: none;
             margin-top: 5px;
@@ -441,7 +501,7 @@ MathJax.Hub.Config({
             if ($(location).attr('pathname') === "/stories/about.html") {
                 $('.entry-title').remove();
             };
-            
+
         })
     </script>
 <div class="cell border-box-sizing text_cell rendered">
@@ -478,7 +538,6 @@ MathJax.Hub.Config({
                         <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="categories/programming.html" rel="tag">Programming</a></li>
            <li><a class="tag p-category" href="categories/python.html" rel="tag">Python</a></li>
         </ul>
         </div>
@@ -491,7 +550,7 @@ MathJax.Hub.Config({
         div.output_wrapper {
             margin-top: 0px;
         }
-        
+
         .output_hidden {
             display: none;
             margin-top: 5px;
@@ -507,7 +566,7 @@ MathJax.Hub.Config({
             if ($(location).attr('pathname') === "/stories/about.html") {
                 $('.entry-title').remove();
             };
-            
+
         })
     </script>
 <div class="cell border-box-sizing text_cell rendered">
@@ -555,7 +614,7 @@ MathJax.Hub.Config({
                         <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="categories/probability.html" rel="tag">Probability</a></li>
+           <li><a class="tag p-category" href="categories/statistics.html" rel="tag">Statistics</a></li>
         </ul>
         </div>
 
@@ -567,7 +626,7 @@ MathJax.Hub.Config({
         div.output_wrapper {
             margin-top: 0px;
         }
-        
+
         .output_hidden {
             display: none;
             margin-top: 5px;
@@ -583,7 +642,7 @@ MathJax.Hub.Config({
             if ($(location).attr('pathname') === "/stories/about.html") {
                 $('.entry-title').remove();
             };
-            
+
         })
     </script>
 <div class="cell border-box-sizing text_cell rendered">

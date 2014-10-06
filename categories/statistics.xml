@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (Statistics)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 23:21:34 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Expected Value (With/Without replacement)</title><link>http://jyt109/posts/expected-value-withwithout-replacement.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;div class="figure"&gt;
+&lt;img src="http://jyt109/posts/urn.png"&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Do we &lt;strong&gt;&lt;em&gt;expect&lt;/em&gt;&lt;/strong&gt; the same number of &lt;span style="color:red"&gt;&lt;i&gt;&lt;b&gt;RED&lt;/b&gt;&lt;/i&gt;&lt;/span&gt; balls when drawn &lt;strong&gt;with/without replacement&lt;/strong&gt; ??&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;YES!&lt;/strong&gt; Turns out replacement matters not. &lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Let's prove by &lt;em&gt;&lt;strong&gt;simulating the two scenarios&lt;/strong&gt;&lt;/em&gt; ...&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/expected-value-withwithout-replacement.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Statistics</category><guid>http://jyt109/posts/expected-value-withwithout-replacement.html</guid><pubDate>Thu, 04 Sep 2014 22:56:56 GMT</pubDate></item></channel></rss>
