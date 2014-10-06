@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (ML)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 19:51:15 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Support Vector Classifiers</title><link>http://jyt109/posts/suport-vector-classifiers.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (ML)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 21:13:42 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Profit Curves</title><link>http://jyt109/posts/profit-curves.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="profit-curves"&gt;Profit Curves&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Combining &lt;strong&gt;prediction&lt;/strong&gt; made by model &lt;strong&gt;and business requirements&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Calculate &lt;strong&gt;Expected Profit&lt;/strong&gt; based on how much a &lt;strong&gt;correct prediction makes us&lt;/strong&gt; and how much &lt;strong&gt;a false one costs us&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Based on where the &lt;strong&gt;Maximum Expected Profit (MEP)&lt;/strong&gt; is, we can then &lt;strong&gt;set the threshold for predicting +ve&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Other constraints such as how much the budget is, so we can only do &lt;strong&gt;MEP given budget limits&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/profit-curves.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>ML</category><category>Profit Curve</category><guid>http://jyt109/posts/profit-curves.html</guid><pubDate>Sun, 05 Oct 2014 03:08:57 GMT</pubDate></item><item><title>Support Vector Classifiers</title><link>http://jyt109/posts/suport-vector-classifiers.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
