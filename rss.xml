@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 21:13:42 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Profit Curves</title><link>http://jyt109/posts/profit-curves.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 23:13:55 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Profit Curves</title><link>http://jyt109/posts/profit-curves.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -28,7 +28,23 @@
 &lt;li&gt;Averaging of parameters on diff. subset of data can help too (Not in Python)&lt;/li&gt;
 &lt;li&gt;Data should be &lt;strong&gt;scaled (z-score, Normal Standard)&lt;/strong&gt;, where in Random Forest, doesn't really matter&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/suport-vector-classifiers.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>ML</category><category>SVM</category><guid>http://jyt109/posts/suport-vector-classifiers.html</guid><pubDate>Sun, 05 Oct 2014 03:07:57 GMT</pubDate></item><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/suport-vector-classifiers.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>ML</category><category>SVM</category><guid>http://jyt109/posts/suport-vector-classifiers.html</guid><pubDate>Sun, 05 Oct 2014 03:07:57 GMT</pubDate></item><item><title>Numpy Basics</title><link>http://jyt109/posts/numpy-basics.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="numpy-basics"&gt;Numpy Basics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Numpy comes with better built-ins than regular lists&lt;/li&gt;
+&lt;li&gt;A lot of the times, numpy functions will take a regular list&lt;/li&gt;
+&lt;li&gt;There are faster because they have broadcasting and the underlying C code&lt;/li&gt;
+&lt;li&gt;Useful if you need to loop multiple times&lt;/li&gt;
+&lt;li&gt;Slow/ annoying if you wanna append an element to np.array&lt;/li&gt;
+&lt;li&gt;Sometimes have to reshape the array to 2d to do matrix dot product&lt;/li&gt;
+&lt;li&gt;Always use shape if you wanna know the number of rows/ columns&lt;/li&gt;
+&lt;li&gt;This will be a growing list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/numpy-basics.html"&gt;Read more…&lt;/a&gt; (5 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Numpy</category><category>Python</category><guid>http://jyt109/posts/numpy-basics.html</guid><pubDate>Sat, 04 Oct 2014 06:43:17 GMT</pubDate></item><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
