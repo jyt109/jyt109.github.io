@@ -6,34 +6,38 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://jyt109/github.io/categories/database.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://jyt109/github.io/categories/draft-python.xml</loc>
+  <lastmod>2014-09-21</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/categories/ipython.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/categories/probability.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/categories/programming.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/categories/python.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/galleries/rss.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/rss.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://jyt109/github.io/sitemap.xml</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </sitemap>
 </sitemapindex>

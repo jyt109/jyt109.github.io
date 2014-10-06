@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (Python)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 21 Sep 2014 21:12:27 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing Shorter Loops in Python</title><link>http://jyt109/posts/all-sorts-of-list-comprehension.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc (Python)</title><link>http://jyt109/github.io</link><description></description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 19:28:05 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing Shorter Loops in Python</title><link>http://jyt109/posts/all-sorts-of-list-comprehension.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -12,7 +12,7 @@
 &lt;p&gt;There are few ways to do so, namely &lt;strong&gt;List Comprehenison&lt;/strong&gt;, &lt;strong&gt;Map( )&lt;/strong&gt; and &lt;strong&gt;Lambda( )&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Here we are gonna cover &lt;strong&gt;when and how&lt;/strong&gt; to use these functions ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/all-sorts-of-list-comprehension.html"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/all-sorts-of-list-comprehension.html</guid><pubDate>Sat, 06 Sep 2014 06:04:45 GMT</pubDate></item><item><title>The Anagram Problem</title><link>http://jyt109/posts/the-find-anagram-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/all-sorts-of-list-comprehension.html"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/all-sorts-of-list-comprehension.html</guid><pubDate>Sat, 06 Sep 2014 06:04:45 GMT</pubDate></item><item><title>The Anagram Problem</title><link>http://jyt109/posts/the-find-anagram-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -23,7 +23,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="input"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;

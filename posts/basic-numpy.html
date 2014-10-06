@@ -6,7 +6,7 @@ article: http://ogp.me/ns/article#
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Sort It All Out: Sort and Order | edoc</title>
+    <title>basic numpy | edoc</title>
 
                 <link href="../assets/css/bitter.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@ article: http://ogp.me/ns/article#
 
                 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://jyt109/posts/sort-it-all-out-sort-and-order.html">
+      <link rel="canonical" href="http://jyt109/posts/basic-numpy.html">
 
 
 
@@ -41,8 +41,8 @@ MathJax.Hub.Config({
 
     
     <meta name="author" content="Jeffrey Tang">
-            <meta name="og:title" content="Sort It All Out: Sort and Order">
-        <meta name="og:url" content="http://jyt109/posts/sort-it-all-out-sort-and-order.html">
+            <meta name="og:title" content="basic numpy">
+        <meta name="og:url" content="http://jyt109/posts/basic-numpy.html">
             <meta name="og:description" content="div.output_wrapper {
             margin-top: 0px;
         }
@@ -76,13 +76,13 @@ MathJax.Hub.Config({
     <section class="page-content">
         <div class="content" rel="main">
     <div class="post">
-        <h1 class="p-name entry-title" itemprop="headline name">Sort It All Out: Sort and Order</h1>
+        <h1 class="p-name entry-title" itemprop="headline name">basic numpy</h1>
 
         <div class="meta">
             <div class="authordate">
-                <time class="timeago" datetime="2014-09-06T01:38:40-07:00">2014-09-06 01:38</time>
+                <time class="timeago" datetime="2014-09-23T23:43:17-07:00">2014-09-23 23:43</time>
                           |  
-        <a href="sort-it-all-out-sort-and-order.ipynb" id="sourcelink">Source</a>
+        <a href="basic-numpy.ipynb" id="sourcelink">Source</a>
           |  
         <a href="javascript:%24.getScript(%22/assets/js/miniPageNav.js%22);">Minimap</a>
 
@@ -90,7 +90,6 @@ MathJax.Hub.Config({
                     <div itemprop="keywords" class="tags">
         <ul>
         Tags : 
-           <li><a class="tag p-category" href="../categories/programming.html" rel="tag">Programming</a></li>
            <li><a class="tag p-category" href="../categories/python.html" rel="tag">Python</a></li>
         </ul>
         </div>
@@ -126,6 +125,82 @@ MathJax.Hub.Config({
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
+In [1]:
+</div>
+    <div class="inner_cell">
+        <div class="input_area">
+            <div class="highlight"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+</pre></div>
+
+            <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
+              Click to hide output, if there is one</i>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In [7]:
+</div>
+    <div class="inner_cell">
+        <div class="input_area">
+            <div class="highlight"><pre><span class="n">x1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span>
+<span class="n">np</span><span class="o">.</span><span class="n">column_stack</span><span class="p">([</span><span class="n">x1</span><span class="p">,</span><span class="n">x2</span><span class="p">])</span>
+</pre></div>
+
+            <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
+              Click to hide output, if there is one</i>
+        </div>
+    </div>
+</div>
+
+    <div class="output_wrapper output_hidden">
+        <div class="output">
+            
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+<div class="prompt output_prompt">
+    Out[7]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+array([[ 0.35774083,  0.        ],
+       [ 0.86452738,  0.        ],
+       [ 0.17763637,  0.        ],
+       [ 0.40898284,  0.        ],
+       [ 0.05356763,  0.        ]])
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+        </div>
+    </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
 In []:
 </div>
     <div class="inner_cell">
@@ -145,9 +220,9 @@ In []:
                                 <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="datamemoir",
-            disqus_url="http://jyt109/posts/sort-it-all-out-sort-and-order.html",
-        disqus_title="Sort It All Out: Sort and Order",
-        disqus_identifier="cache/posts/sort-it-all-out-sort-and-order.html",
+            disqus_url="http://jyt109/posts/basic-numpy.html",
+        disqus_title="basic numpy",
+        disqus_identifier="cache/posts/basic-numpy.html",
         disqus_config = function () {
             this.language = "";
         };

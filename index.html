@@ -63,6 +63,77 @@ MathJax.Hub.Config({
     <section class="page-content">
         <div class="content" rel="main">
         <div class="post">
+            <h1 class="title"><a href="posts/suport-vector-classifiers.html">Support Vector Classifiers</a></h1>
+            <br>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2014-10-04T20:07:57-07:00">2014-10-04 20:07</time>
+                </div>
+                <div class="stats">
+                                <a href="posts/suport-vector-classifiers.html#disqus_thread" data-disqus-identifier="cache/posts/support-vector.html">Comments</a>
+
+
+                </div>
+                        <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/ml.html" rel="tag">ML</a></li>
+           <li><a class="tag p-category" href="categories/svm.html" rel="tag">SVM</a></li>
+        </ul>
+        </div>
+
+            </div>
+            <div class="body">
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <style type="text/css">
+        div.output_wrapper {
+            margin-top: 0px;
+        }
+
+        .output_hidden {
+            display: none;
+            margin-top: 5px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $(".input").click(function(){
+                $(this).next('.output_hidden').slideToggle();
+            });
+            $('.entry-title').css('text-align','center');
+            if ($(location).attr('pathname') === "/stories/about.html") {
+                $('.entry-title').remove();
+            };
+
+        })
+    </script>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="support-vector-classifier">Support Vector Classifier</h2>
+<ul>
+<li>One of the most <strong>accurate</strong> (On par with Neural Nets)</li>
+<li>Takes a <strong>long time to train</strong> (Much longer then Random Forest / Logit)</li>
+<li>Takes even <strong>longer to CrossValidate</strong>
+</li>
+<li>Sensitive to hyperparameters (Much tuning required - GridSearchCV)</li>
+<li>Still used in industry when the accurate is needed</li>
+<li>Continously training the SVM with a moving window of data</li>
+<li>Partial_fit might be able to speed things up</li>
+<li>Averaging of parameters on diff. subset of data can help too (Not in Python)</li>
+<li>Data should be <strong>scaled (z-score, Normal Standard)</strong>, where in Random Forest, doesn't really matter</li>
+</ul>
+<p class="more"><a href="posts/suport-vector-classifiers.html">Read more…</a></p>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="posts/convert-ipython-notebook-to-pdf.html">Convert IPython Notebook to PDF</a></h1>
             <br>
             <div class="meta">
@@ -172,7 +243,7 @@ MathJax.Hub.Config({
             
         })
     </script>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -235,7 +306,7 @@ MathJax.Hub.Config({
             
         })
     </script>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -301,7 +372,7 @@ MathJax.Hub.Config({
             
         })
     </script>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -312,7 +383,7 @@ MathJax.Hub.Config({
 </div>
 </div>
 </div>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -377,7 +448,7 @@ MathJax.Hub.Config({
             
         })
     </script>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -388,7 +459,7 @@ MathJax.Hub.Config({
 </div>
 </div>
 </div>
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">

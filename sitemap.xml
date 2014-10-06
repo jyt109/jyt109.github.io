@@ -6,70 +6,106 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://jyt109/github.io/2014/09/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/2014/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/archive.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/database.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/categories/draft-python.html</loc>
+  <lastmod>2014-09-21</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/ipython.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/probability.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/programming.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/categories/python.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/galleries/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/listings/index.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/posts/all-sorts-of-list-comprehension.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/blogging-with-ipython-and-nikola-sep-2014.html</loc>
+  <lastmod>2014-09-21</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/convert-ipython-notebook-to-pdf.html</loc>
+  <lastmod>2014-10-05</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/correlation-and-regression-coefficient.html</loc>
+  <lastmod>2014-09-21</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/creating-prime-number-generator.html</loc>
+  <lastmod>2014-09-21</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/delicacies-of-central-limit-theorem.html</loc>
+  <lastmod>2014-09-21</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/posts/expected-value-withwithout-replacement.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/lets-prove-monty-hall-numerically.html</loc>
+  <lastmod>2014-09-21</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/little-tricks-simulate-distribution-given-sample-mean-and-sem.html</loc>
+  <lastmod>2014-09-21</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/posts/postgres-database.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
+ </url>
+ <url>
+  <loc>http://jyt109/github.io/posts/suport-vector.html</loc>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/posts/the-find-anagram-problem.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
  <url>
   <loc>http://jyt109/github.io/stories/about.html</loc>
-  <lastmod>2014-09-12</lastmod>
+  <lastmod>2014-10-05</lastmod>
  </url>
 </urlset>

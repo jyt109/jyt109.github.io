@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Sun, 21 Sep 2014 22:15:05 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 19:51:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Support Vector Classifiers</title><link>http://jyt109/posts/suport-vector-classifiers.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="support-vector-classifier"&gt;Support Vector Classifier&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;One of the most &lt;strong&gt;accurate&lt;/strong&gt; (On par with Neural Nets)&lt;/li&gt;
+&lt;li&gt;Takes a &lt;strong&gt;long time to train&lt;/strong&gt; (Much longer then Random Forest / Logit)&lt;/li&gt;
+&lt;li&gt;Takes even &lt;strong&gt;longer to CrossValidate&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Sensitive to hyperparameters (Much tuning required - GridSearchCV)&lt;/li&gt;
+&lt;li&gt;Still used in industry when the accurate is needed&lt;/li&gt;
+&lt;li&gt;Continously training the SVM with a moving window of data&lt;/li&gt;
+&lt;li&gt;Partial_fit might be able to speed things up&lt;/li&gt;
+&lt;li&gt;Averaging of parameters on diff. subset of data can help too (Not in Python)&lt;/li&gt;
+&lt;li&gt;Data should be &lt;strong&gt;scaled (z-score, Normal Standard)&lt;/strong&gt;, where in Random Forest, doesn't really matter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/suport-vector-classifiers.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>ML</category><category>SVM</category><guid>http://jyt109/posts/suport-vector-classifiers.html</guid><pubDate>Sun, 05 Oct 2014 03:07:57 GMT</pubDate></item><item><title>Convert IPython Notebook to PDF</title><link>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -10,7 +27,7 @@
 &lt;p&gt;&lt;strong&gt;NOTEBOOK --&amp;gt; PDF in under 5 mins&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Example product: &lt;a href="http://jyt109/posts/example.pdf"&gt;example.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;P.S. Instructions has only been tested on Mac Pro (Mavericks). User be cautious&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/convert-ipython-notebook-to-pdf.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>IPython</category><guid>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</guid><pubDate>Mon, 22 Sep 2014 03:07:57 GMT</pubDate></item><item><title>Python/IPython as a PostGres Client</title><link>http://jyt109/posts/postgres-database.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/convert-ipython-notebook-to-pdf.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>IPython</category><guid>http://jyt109/posts/convert-ipython-notebook-to-pdf.html</guid><pubDate>Mon, 22 Sep 2014 03:07:57 GMT</pubDate></item><item><title>Python/IPython as a PostGres Client</title><link>http://jyt109/posts/postgres-database.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -20,7 +37,7 @@
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;IPython&lt;/em&gt;&lt;/strong&gt; makes &lt;strong&gt;PostGres Querying&lt;/strong&gt; much more bearable&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Python scripts&lt;/em&gt;&lt;/strong&gt; allows to &lt;strong&gt;recycle and run&lt;/strong&gt; the same Queries in the future easily&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/postgres-database.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Database</category><category>IPython</category><guid>http://jyt109/posts/postgres-database.html</guid><pubDate>Fri, 12 Sep 2014 07:06:42 GMT</pubDate></item><item><title>Writing Shorter Loops in Python</title><link>http://jyt109/posts/all-sorts-of-list-comprehension.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/postgres-database.html"&gt;Read more…&lt;/a&gt; (2 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Database</category><category>IPython</category><guid>http://jyt109/posts/postgres-database.html</guid><pubDate>Fri, 12 Sep 2014 07:06:42 GMT</pubDate></item><item><title>Writing Shorter Loops in Python</title><link>http://jyt109/posts/all-sorts-of-list-comprehension.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -33,7 +50,7 @@
 &lt;p&gt;There are few ways to do so, namely &lt;strong&gt;List Comprehenison&lt;/strong&gt;, &lt;strong&gt;Map( )&lt;/strong&gt; and &lt;strong&gt;Lambda( )&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;Here we are gonna cover &lt;strong&gt;when and how&lt;/strong&gt; to use these functions ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/all-sorts-of-list-comprehension.html"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/all-sorts-of-list-comprehension.html</guid><pubDate>Sat, 06 Sep 2014 06:04:45 GMT</pubDate></item><item><title>The Anagram Problem</title><link>http://jyt109/posts/the-find-anagram-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/all-sorts-of-list-comprehension.html"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/all-sorts-of-list-comprehension.html</guid><pubDate>Sat, 06 Sep 2014 06:04:45 GMT</pubDate></item><item><title>The Anagram Problem</title><link>http://jyt109/posts/the-find-anagram-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -44,7 +61,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="input"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -57,7 +74,7 @@
 &lt;p&gt;&lt;strong&gt;Anagrams&lt;/strong&gt; are words with different arrangement of letters.&lt;/p&gt;
 &lt;p&gt;E.g. &lt;strong&gt;"dog" and "god"&lt;/strong&gt; &lt;span style="color:red"&gt;/&lt;/span&gt; &lt;strong&gt;"star", "arts" and "rats"&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt; Let's dig into the code ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/the-find-anagram-problem.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/the-find-anagram-problem.html</guid><pubDate>Fri, 05 Sep 2014 23:33:27 GMT</pubDate></item><item><title>Expected Value (With/Without replacement)</title><link>http://jyt109/posts/expected-value-withwithout-replacement.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="input"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/the-find-anagram-problem.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/the-find-anagram-problem.html</guid><pubDate>Fri, 05 Sep 2014 23:33:27 GMT</pubDate></item><item><title>Expected Value (With/Without replacement)</title><link>http://jyt109/posts/expected-value-withwithout-replacement.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -68,7 +85,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="input"&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
