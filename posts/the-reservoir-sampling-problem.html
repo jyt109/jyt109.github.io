@@ -6,7 +6,7 @@ article: http://ogp.me/ns/article#
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>The Coin Change Problem | edoc</title>
+    <title>The Reservoir Sampling Problem | edoc</title>
 
                 <link href="../assets/css/bitter.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@ article: http://ogp.me/ns/article#
 
                 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
 
-      <link rel="canonical" href="http://jyt109/posts/the-coin-change-problem.html">
+      <link rel="canonical" href="http://jyt109/posts/the-reservoir-sampling-problem.html">
 
 
 
@@ -41,8 +41,8 @@ MathJax.Hub.Config({
 
     
     <meta name="author" content="Jeffrey Tang">
-            <meta name="og:title" content="The Coin Change Problem">
-        <meta name="og:url" content="http://jyt109/posts/the-coin-change-problem.html">
+            <meta name="og:title" content="The Reservoir Sampling Problem">
+        <meta name="og:url" content="http://jyt109/posts/the-reservoir-sampling-problem.html">
             <meta name="og:description" content="div.output_wrapper {
             margin-top: 0px;
         }
@@ -76,24 +76,18 @@ MathJax.Hub.Config({
     <section class="page-content">
         <div class="content" rel="main">
     <div class="post">
-        <h1 class="p-name entry-title" itemprop="headline name">The Coin Change Problem</h1>
+        <h1 class="p-name entry-title" itemprop="headline name">The Reservoir Sampling Problem</h1>
 
         <div class="meta">
             <div class="authordate">
-                <time class="timeago" datetime="2014-10-05T23:36:30-07:00">2014-10-05 23:36</time>
+                <time class="timeago" datetime="2014-10-05T23:53:08-07:00">2014-10-05 23:53</time>
                           |  
-        <a href="the-coin-change-problem.ipynb" id="sourcelink">Source</a>
+        <a href="the-reservoir-sampling-problem.ipynb" id="sourcelink">Source</a>
           |  
         <a href="javascript:%24.getScript(%22/assets/js/miniPageNav.js%22);">Minimap</a>
 
             </div>
-                    <div itemprop="keywords" class="tags">
-        <ul>
-        Tags : 
-           <li><a class="tag p-category" href="../categories/python.html" rel="tag">Python</a></li>
-        </ul>
-        </div>
-
+            
         </div>
         <div class="body">
             <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"> </script>
@@ -122,40 +116,17 @@ MathJax.Hub.Config({
 
         })
     </script>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Given some US coins and an amount of value in cents, return the minimum number of coins necessary for the exact value</strong></p>
-<ul>
-<li>Loop through the coins <strong>sorted by descending order</strong> (25, 10...)</li>
-<li>Take the <strong>rounded division</strong> (Add that to the number of cumulative coins)</li>
-<li>Take the <strong>modulus and pass onto the next coin</strong> in line</li>
-</ul>
-<!-- TEASER_END -->
-<p><br></p>
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [1]:
+In [23]:
 </div>
     <div class="inner_cell">
         <div class="input_area">
-            <div class="highlight"><pre><span class="n">coins</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">25</span><span class="p">]</span>
-
-<span class="k">def</span> <span class="nf">find_change</span><span class="p">(</span><span class="n">coins</span><span class="p">,</span> <span class="n">value</span><span class="p">):</span>
-    <span class="n">coins</span> <span class="o">=</span> <span class="n">coins</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-    <span class="n">cur_val</span> <span class="o">=</span> <span class="n">value</span>
-    <span class="n">num_coins</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">coin</span> <span class="ow">in</span> <span class="n">coins</span><span class="p">:</span>
-        <span class="n">num_coins</span> <span class="o">+=</span> <span class="p">(</span><span class="n">cur_val</span> <span class="o">/</span> <span class="n">coin</span><span class="p">)</span>
-        <span class="n">mod</span> <span class="o">=</span> <span class="n">cur_val</span> <span class="o">%</span> <span class="n">coin</span>
-        <span class="n">cur_val</span> <span class="o">=</span> <span class="n">cur_val</span> <span class="o">%</span> <span class="n">coin</span>
-    <span class="k">return</span> <span class="n">num_coins</span>
+            <div class="highlight"><pre><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">division</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span><span class="p">,</span> <span class="n">Counter</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">1234</span><span class="p">)</span>
 </pre></div>
 
             <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
@@ -168,12 +139,20 @@ In [1]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [2]:
+In []:
 </div>
     <div class="inner_cell">
         <div class="input_area">
-            <div class="highlight"><pre><span class="n">find_change</span><span class="p">(</span><span class="n">coins</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
-<span class="c">#4 quarters</span>
+            <div class="highlight"><pre><span class="k">def</span> <span class="nf">reservoirSampling</span><span class="p">(</span><span class="n">stream</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">samples</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">ind</span><span class="p">,</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">stream</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">ind</span> <span class="o">&lt;</span> <span class="n">k</span><span class="p">:</span>
+            <span class="n">samples</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">r</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">ind</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">r</span> <span class="o">&lt;</span> <span class="n">k</span><span class="p">:</span>
+                <span class="n">samples</span><span class="p">[</span><span class="n">r</span><span class="p">]</span> <span class="o">=</span> <span class="n">item</span>
+    <span class="k">return</span> <span class="n">samples</span>
 </pre></div>
 
             <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
@@ -182,42 +161,34 @@ In [2]:
     </div>
 </div>
 
-    <div class="output_wrapper output_hidden">
-        <div class="output">
-            
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">
-    Out[2]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-4
-</pre>
 </div>
-
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In [29]:
 </div>
+    <div class="inner_cell">
+        <div class="input_area">
+            <div class="highlight"><pre><span class="n">ll</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">xrange</span><span class="p">(</span><span class="mi">100000</span><span class="p">):</span>
+    <span class="n">ll</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">reservoirSampling</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]))</span>
+</pre></div>
 
-</div>
-</div>
-
+            <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
+              Click to hide output, if there is one</i>
         </div>
     </div>
+</div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In [3]:
+In [30]:
 </div>
     <div class="inner_cell">
         <div class="input_area">
-            <div class="highlight"><pre><span class="n">find_change</span><span class="p">(</span><span class="n">coins</span><span class="p">,</span> <span class="mi">74</span><span class="p">)</span>
-<span class="c">#2 quarters, 2 dimes, 4 one cents</span>
+            <div class="highlight"><pre><span class="n">Counter</span><span class="p">(</span><span class="n">ll</span><span class="p">)</span>
 </pre></div>
 
             <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
@@ -235,12 +206,12 @@ In [3]:
 
 <div class="output_area">
 <div class="prompt output_prompt">
-    Out[3]:</div>
+    Out[30]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
 <pre>
-8
+Counter({1: 33394, 2: 33332, 3: 33274})
 </pre>
 </div>
 
@@ -251,24 +222,50 @@ In [3]:
 
         </div>
     </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In [14]:
+</div>
+    <div class="inner_cell">
+        <div class="input_area">
+            <div class="highlight"><pre> 
+</pre></div>
+
+            <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
+              Click to hide output, if there is one</i>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In []:
+</div>
+    <div class="inner_cell">
+        <div class="input_area">
+            <div class="highlight"><pre> 
+</pre></div>
+
+            <i class="icon-hand-up icon-large" style="float:right; margin-bottom:8px; margin-right:10px">
+              Click to hide output, if there is one</i>
+        </div>
+    </div>
+</div>
 
 </div>
             <br><br><br>
-                    <ul class="pager">
-            <li class="previous">
-                <a href="profit-curves.html" rel="prev" title="Profit Curves">Previous post</a>
-            </li>
-            <li class="next">
-                <a href="yelp-rest-scrape.html" rel="next" title="Scraping Yelp Reviews">Next post</a>
-            </li>
-        </ul>
-
+            
                                 <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="datamemoir",
-            disqus_url="http://jyt109/posts/the-coin-change-problem.html",
-        disqus_title="The Coin Change Problem",
-        disqus_identifier="cache/posts/the-coin-change-problem.html",
+            disqus_url="http://jyt109/posts/the-reservoir-sampling-problem.html",
+        disqus_title="The Reservoir Sampling Problem",
+        disqus_identifier="cache/posts/the-reservoir-sampling-problem.html",
         disqus_config = function () {
             this.language = "";
         };

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Sun, 05 Oct 2014 23:46:25 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Coin Change Problem</title><link>http://jyt109/posts/the-coin-change-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Thu, 09 Oct 2014 11:31:43 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Scraping Yelp Reviews</title><link>http://jyt109/posts/yelp-rest-scrape.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;A simple example of how to scrape reviews from yelp and put it in a MongoDB database&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This assumes you already have scrape the metadata using the yelp API&lt;/li&gt;
+&lt;li&gt;Another post will cover yelp-API in python (Coming)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/yelp-rest-scrape.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/yelp-rest-scrape.html</guid><pubDate>Thu, 09 Oct 2014 06:53:08 GMT</pubDate></item><item><title>The Coin Change Problem</title><link>http://jyt109/posts/the-coin-change-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
