@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Thu, 09 Oct 2014 11:31:43 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Scraping Yelp Reviews</title><link>http://jyt109/posts/yelp-rest-scrape.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>edoc</title><link>http://jyt109/github.io</link><description>electronic documents about code</description><language>en</language><lastBuildDate>Fri, 10 Oct 2014 12:14:14 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Scraping Yelp Reviews</title><link>http://jyt109/posts/yelp-rest-scrape.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -9,7 +9,20 @@
 &lt;li&gt;This assumes you already have scrape the metadata using the yelp API&lt;/li&gt;
 &lt;li&gt;Another post will cover yelp-API in python (Coming)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/yelp-rest-scrape.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/yelp-rest-scrape.html</guid><pubDate>Thu, 09 Oct 2014 06:53:08 GMT</pubDate></item><item><title>The Coin Change Problem</title><link>http://jyt109/posts/the-coin-change-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/yelp-rest-scrape.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Programming</category><category>Python</category><guid>http://jyt109/posts/yelp-rest-scrape.html</guid><pubDate>Thu, 09 Oct 2014 06:53:08 GMT</pubDate></item><item><title>NMF way of identifying topics of passages</title><link>http://jyt109/posts/nmf.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;This is a sample of how I do &lt;strong&gt;Natural Language Processing(NLP)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NLP helps us extract meaning of words without reading them manually (very rough kinda definition)&lt;/li&gt;
+&lt;li&gt;In this case, we are trying to guess the topic of the passage based on the words that are in it&lt;/li&gt;
+&lt;li&gt;And we don't even need to tell it what topics to look for&lt;/li&gt;
+&lt;li&gt;We just need to specify how many (and even a wrong number won't work too badly)&lt;/li&gt;
+&lt;li&gt;This is just code, I will come back to the explanation of the concepts behind&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://jyt109/posts/nmf.html"&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Machine Learning</category><guid>http://jyt109/posts/nmf.html</guid><pubDate>Thu, 09 Oct 2014 06:53:08 GMT</pubDate></item><item><title>The Coin Change Problem</title><link>http://jyt109/posts/the-coin-change-problem.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -123,23 +136,4 @@
 &lt;p&gt;&lt;strong&gt;Anagrams&lt;/strong&gt; are words with different arrangement of letters.&lt;/p&gt;
 &lt;p&gt;E.g. &lt;strong&gt;"dog" and "god"&lt;/strong&gt; &lt;span style="color:red"&gt;/&lt;/span&gt; &lt;strong&gt;"star", "arts" and "rats"&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;br&gt; Let's dig into the code ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/the-find-anagram-problem.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Python</category><guid>http://jyt109/posts/the-find-anagram-problem.html</guid><pubDate>Fri, 05 Sep 2014 23:33:27 GMT</pubDate></item><item><title>Expected Value (With/Without replacement)</title><link>http://jyt109/posts/expected-value-withwithout-replacement.html</link><dc:creator>Jeffrey Tang</dc:creator><description>&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;div class="figure"&gt;
-&lt;img src="http://jyt109/posts/urn.png"&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Do we &lt;strong&gt;&lt;em&gt;expect&lt;/em&gt;&lt;/strong&gt; the same number of &lt;span style="color:red"&gt;&lt;i&gt;&lt;b&gt;RED&lt;/b&gt;&lt;/i&gt;&lt;/span&gt; balls when drawn &lt;strong&gt;with/without replacement&lt;/strong&gt; ??&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;YES!&lt;/strong&gt; Turns out replacement matters not. &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Let's prove by &lt;em&gt;&lt;strong&gt;simulating the two scenarios&lt;/strong&gt;&lt;/em&gt; ...&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://jyt109/posts/expected-value-withwithout-replacement.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Statistics</category><guid>http://jyt109/posts/expected-value-withwithout-replacement.html</guid><pubDate>Thu, 04 Sep 2014 22:56:56 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;a href="http://jyt109/posts/the-find-anagram-problem.html"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>Python</category><guid>http://jyt109/posts/the-find-anagram-problem.html</guid><pubDate>Fri, 05 Sep 2014 23:33:27 GMT</pubDate></item></channel></rss>
